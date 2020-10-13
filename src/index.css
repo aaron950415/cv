@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+body{
+        color: #666;
+}
+.layout{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    color: white;
+ 
+    padding:40px 0 10px 0;
+    position: relative;
+
+}
+header>div{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background: #3c3c3c;
+    top: 0;
+    z-index: -1;
+}
+header h1{
+    font-size: 24px;
+}
+header p{
+    font-size: 18px;
+    color: #aaa;
+}
+aside{
+    max-width: 280px;
+    padding:0px 30px 20px 30px
+}
+main{
+    flex:1;
+    min-height: calc(100vh - 100px);
+}
+@media (max-width:768px){
+    aside{
+        max-width: 100%;
+    }
+    aside>.contain{
+    display: none;
+    }
+}
+.contain{
+    width: 150px;
+    height: 150px;
+    border: 1px #ccc solid;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:-60px auto 0 auto;
+}
+.contain>.photo{
+    width: 150px;
+    position: relative;
+    bottom: 30px;
+}
+section{
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 30px;
+}
+.end{border-bottom: none}
+section>h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #4302dd;
+    font-size: 22px;
+}
+
+dl{
+    display: flex;
+    flex-wrap: wrap;
+}
+dl>div{
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+dl>div>dt{
+    font-size: 14px;
+    flex: 0.5;
+}
+.detail>dl>div>dd::before{
+    content: ":";
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.statistic>dl dd{
+    width: 100%;
+    height: 4px;
+    background: #ccc;
+}
+.statistic>dl>div> dd>span{
+    display: block;
+    height: 4px;
+    background: black;
+    width: 10%;
+}
+dl>div>dd{
+    font-size: 14px;
+    flex: 1;
+}
+.contact div{
+    display: flex;
+    align-items: center;
+}
+svg{
+    width: 20px;
+    height: 20px;
+}
+ul{
+    margin-left: 20px;
+}
+li{
+    margin:5px 0;
+}
+li>p{
+    font-size: 16px;
+    padding: 4px 0;
+}
+a{
+    font-size: 16px;
+}
+b{
+    color: black;
+    font-weight: bolder;
+}
+.experience li{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.experience li a,p{
+    margin: 10px 0;
+}
+
+
