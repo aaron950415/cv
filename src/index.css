@@ -18,15 +18,16 @@ header{
     width: 100%;
     text-align: center;
     color: white;
- 
+ overflow: hidden;
     padding:40px 0 10px 0;
     position: relative;
 
 }
 header>div{
     width: 100%;
+    border: 100px #3c3c3c solid;
     position: absolute;
-    height: 100%;
+
     background: #3c3c3c;
     top: 0;
     z-index: -1;
@@ -136,7 +137,7 @@ a{
     font-size: 16px;
 }
 b{
-    color: black;
+    color: orange;
     font-weight: bolder;
 }
 .experience li{
