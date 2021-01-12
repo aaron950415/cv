@@ -41,7 +41,7 @@ header p{
 }
 aside{
     max-width: 280px;
-    padding:0px 30px 20px 30px
+    padding:0px 30px 20px 30px;
 }
 main{
     flex:1;
