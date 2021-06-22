@@ -37,16 +37,17 @@
     <header>
       <div></div>
       <h1>Yong Wang</h1>
-      <p>Position Name: Web developer</p>
+      <p>Position: Web developer</p>
     </header>
-    <aside>
-      <div class="contain">
+    <main>
+    <section>
+      <!-- <div class="contain">
         <img src="./img/mine.jpg" alt="" class="photo" />
-      </div>
+      </div> -->
       <section>
         <h3>Personal</h3>
-        <div class="detail">
-          <dl class="personal">
+        <div class="detail clearfix">
+          <dl class="personal" style="width: 50%;float: left;">
             <div>
               <dt>Education</dt>
               <dd>Master</dd>
@@ -60,19 +61,40 @@
               <dd>Western Sydney</dd>
             </div>
             <div>
-              <dt>Experience</dt>
-              <dd>None</dd>
-            </div>
-            <div>
               <dt>State</dt>
               <dd>Studying</dd>
             </div>
           </dl>
+        
+            <dl class="personal" style="width: 50%;float: right;">
+              <div>
+                <dt>
+                  <svg>
+                    <use xlink:href="#icon-phone" /></svg>
+                </dt>
+                <dd>0415250415</dd>
+              </div>
+              <div>
+                <dt>
+                  <svg>
+                    <use xlink:href="#icon-email" /></svg>
+                </dt>
+                <dd><span>aaron950415@gmail.com</span></dd>
+              </div>
+              <div>
+                <dt>
+                  <svg>
+                    <use xlink:href="#icon-dizhidingwei" /></svg>
+                </dt>
+                <dd>Ashfield NSW</dd>
+              </div>
+            
+          </dl>
         </div>
-      </section>
-      <section>
-        <h3>Professional Skills</h3>
-        <div class="statistic">
+        </section>
+      <section class=" clearfix">
+        <div class="statistic" style="width: 40%;float: left;">
+          <h3>Professional Skills</h3>
           <dl class="Skills">
             <div>
               <dt>HTML5</dt>
@@ -100,39 +122,9 @@
             </div>
           </dl>
         </div>
-      </section>
-      <section>
-        <h3>Contact Details</h3>
-        <div class="contact">
-          <dl class="personal">
-            <div>
-              <dt>
-                <svg>
-                  <use xlink:href="#icon-phone" /></svg>
-              </dt>
-              <dd>0415250415</dd>
-            </div>
-            <div>
-              <dt>
-                <svg>
-                  <use xlink:href="#icon-email" /></svg>
-              </dt>
-              <dd><span>aaron950415@gmail.com</span></dd>
-            </div>
-            <div>
-              <dt>
-                <svg>
-                  <use xlink:href="#icon-dizhidingwei" /></svg>
-              </dt>
-              <dd>Ashfield NSW</dd>
-            </div>
-          </dl>
-        </div>
-      </section>
-      <section>
-        <h3>Related Links</h3>
-        <div class="related">
 
+        <div class="related" style="width: 50%;float: right;">
+          <h3>Related Links</h3>
           <ul>
             <li>
               <a href="https://aaron950415.github.io/">My blog</a>
@@ -148,7 +140,7 @@
         </div>
       </section>
     </aside>
-    <main>
+    
       <section>
         <h3>About Me</h3>
         <div class="detail">

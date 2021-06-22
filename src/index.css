@@ -73,7 +73,7 @@ section{
     padding-bottom: 30px;
 }
 .end{border-bottom: none}
-section>h3{
+h3{
     padding-top: 20px;
     padding-bottom: 10px;
     color: #4302dd;
@@ -90,15 +90,22 @@ dl>div{
     display: flex;
     align-items: center;
 }
-dl>div>dt{
+dl>div>dt,dd{
+    width: 25%;
     font-size: 14px;
     flex: 0.5;
 }
+
 .detail>dl>div>dd::before{
     content: ":";
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display: block;
+    clear:both;
 }
 .statistic>dl dd{
     width: 100%;
